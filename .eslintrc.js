@@ -8,19 +8,19 @@ module.exports = {
       'airbnb',
     ],
     globals: {
-      Atomics: 'readonly',
-      SharedArrayBuffer: 'readonly',
+      SharedArrayBuffer: 'edit',
     },
     parserOptions: {
       ecmaFeatures: {
         jsx: true,
       },
-      ecmaVersion: 2018,
+      ecmaVersion: 'latest',
       sourceType: 'module',
     },
     "parser": "babel-eslint",
     plugins: [
       'react',
+      'node'
     ],
     rules: {
       "import/extensions": 0,
@@ -35,8 +35,8 @@ module.exports = {
       "no-multiple-empty-lines": [
         "error",
         {
-          "max": 1,
-          "maxEOF": 1
+          "max": 10,
+          "maxEOF": 10
         }
       ],
       "no-underscore-dangle": [
