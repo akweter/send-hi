@@ -4,7 +4,7 @@
 `It is supported by mogo DB database`
 
 ## Heroku
-[Click here:](https://formsreact.herokuapp.com/)
+[Click here:](https://sendhi.herokuapp.com/)
 
 ## Layout
 ![](https://user-images.githubusercontent.com/71665600/173808043-30a9dc33-c4dd-49ee-8e3d-fff1ecf14dde.png)
