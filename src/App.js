@@ -7,6 +7,8 @@ import Form from './components/Form/Form';
 import { getPosts } from './actions/posts';
 import useStyles from './styles';
 import memories from './images/memories.png';
+import img from './images/img.png';
+
 
 const App = () => {
   const [currentId, setCurrentId] = useState(0);
@@ -20,14 +22,14 @@ const App = () => {
   return (
     <Container maxWidth="lg">
       <AppBar className={classes.appBar} position="static" color="inherit">
-        <Typography className={classes.heading} variant="h2" align="center">Memories</Typography>
+        <Typography className={classes.heading} variant="h2" align="center">Send Hi</Typography>
         <img className={classes.image} src={memories} alt="icon" height="60" />
       </AppBar>
       <Grow in>
         <Container>
           <Grid container justify="space-between" alignItems="stretch" spacing={3}>
             <Grid item xs={12} sm={7}>
-              <Posts setCurrentId={setCurrentId} />
+              <img src={img} width="100%" height="540px" alt="James" />
             </Grid>
             <Grid item xs={12} sm={4}>
               <Form currentId={currentId} setCurrentId={setCurrentId} />
